@@ -1,9 +1,6 @@
 @font-face {
-    font-family: 'Routtage';
-    src: url('Routtage.ttf') format('ttf'),
-         url('Routtage.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'routtage';
+    src: url('./fonts/Routtage.ttf');
 }
 
 body {
@@ -11,9 +8,13 @@ body {
 }
 
 h1 {
-    font-family: 'Routtage',
+    /* font-family: 'routtage'; */
 }
 
 .red {
     background-color: red;
+}
+
+.green {
+    background-color: green;
 }
