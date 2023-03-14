@@ -1,20 +1,12 @@
-@font-face {
-    font-family: 'routtage';
-    src: url('./fonts/Routtage.ttf');
-}
-
 body {
     margin: 0;
 }
 
-h1 {
-    /* font-family: 'routtage'; */
-}
-
-.red {
-    background-color: red;
-}
-
-.green {
-    background-color: green;
+#background {
+    background-image: url('./images/firstbg.png'), url('./images/secondbg.png');
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-position: center, center;
+    opacity: 0.8;
+    height: 100vh;
 }
